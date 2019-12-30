@@ -20,3 +20,14 @@ def long_planeteer_calls(array)
   end 
   false
 end 
+
+def find_the_cheese(array)
+  array.each do |element|
+    if element === "cheddar"
+      return "cheddar"
+    elsif
+      element === "cheddar"
+      return "cheddar"
+    end 
+  end 
+end 
