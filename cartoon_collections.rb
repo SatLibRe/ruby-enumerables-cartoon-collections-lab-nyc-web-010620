@@ -26,8 +26,11 @@ def find_the_cheese(array)
     if element === "cheddar"
       return "cheddar"
     elsif
-      element === "cheddar"
-      return "cheddar"
+      element === "gouda"
+      return "gouda"
+    elsif
+      element === "gouda"
+      return "gouda"
     end 
   end 
 end 
