@@ -8,6 +8,6 @@ end
 
 def summon_captain_planet(array) 
   array.map do |element|
-    "#{element[0].upcase}#{element.slice(1,element.last)}!"
+    "#{element[0].upcase}#{element.slice(1,element.length-1)}!"
   end 
 end 
