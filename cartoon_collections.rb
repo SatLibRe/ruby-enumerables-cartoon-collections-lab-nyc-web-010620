@@ -1,5 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(array)
-  binding.pry 
+  array.each do |dwarf|
+    puts dwarf
+  end 
 end 
