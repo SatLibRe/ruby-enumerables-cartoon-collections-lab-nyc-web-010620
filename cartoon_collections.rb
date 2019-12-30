@@ -6,4 +6,8 @@ def roll_call_dwarves(array)
   end 
 end 
 
-def 
+def summon_captain_planet(array) 
+  array.map do |element|
+    "#{element[0]}"
+  end 
+end 
