@@ -11,3 +11,5 @@ def summon_captain_planet(array)
     "#{element[0].upcase}#{element.slice(1,element.length-1)}!"
   end 
 end 
+
+def 
